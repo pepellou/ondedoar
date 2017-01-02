@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Onde doar sangue</title>
+    <style>
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var galicia = {lat: 42.793104, lng: -7.9888223};
+        var cambre = {lat: 43.2925717, lng: -8.344482};
+        var coru_conchiñas = {lat: 43.3613589, lng: -8.4194143};
+        var arteixo = {lat: 43.3051599, lng: -8.5087933};
+        var carballo = {lat: 43.2131445, lng: -8.6894835};
+        var ferrol = {lat: 43.4840615, lng: -8.2058028};
+        var as_pontes = {lat: 43.4508936, lng: -7.8530745};
+        var cedeira = {lat: 43.6608476, lng: -8.0541278};
+        var coru_villa_negreira = {lat: 43.3635388, lng: -8.4223245};
+        var betanzos = {lat: 43.2797688, lng: -8.2104311};
+        var coru_cuatro_caminos = {lat: 43.3551556, lng: -8.4029407};
+        var ribeira = {lat:42.5550502, lng: -8.9929984};
+        var pobra = {lat:42.6069103, lng: -8.9377029};
+        var negreira = {lat:42.9115098, lng: -8.7337589};
+        var noia = {lat: 42.7848581, lng: -8.8884553};
+        var xuño = {lat: 42.6364523, lng: -9.0262154};
+        var frades = {lat: 43.0384621, lng: -8.3203686};
+        var aguiño = {lat: 42.5205068, lng: -9.019026};
+        var a_silva = {lat: 43.1588507, lng: -8.5661989};
+        var marin = {lat: 42.3931819, lng: -8.7018059};
+        var catoira = {lat: 42.6720452, lng: -8.725159};
+        var caldas_de_reis = {lat: 42.6039039, lng: -8.6414688};
+        var vilagarcia = {lat: 42.5936207, lng: -8.7678798};
+        var mondariz = {lat: 42.23212, lng: -8.454981};
+        var bueu = {lat: 42.3275511, lng: -8.7839105};
+        var vigo_travesas = {lat: 42.2203076, lng: -8.7327909};
+        var a_guarda = {lat: 41.9021648, lng: -8.8698694};
+        var moaña = {lat: 42.2847719, lng: -8.734395};
+        var cangas = {lat: 42.2633274, lng: -8.7824166};
+        var foz = {lat: 43.5682616, lng: -7.2594224};
+        var burela = {lat: 43.6595663, lng: -7.3581829};
+        var antas_de_ulla = {lat: 42.7827464, lng: -7.890302};
+        var rabade = {lat: 43.1216101, lng: -7.6248174};
+        var ribadeo = {lat: 43.5356295, lng: -7.0391276};
+        var ferreira_de_panton = {lat: 42.5051804, lng: -7.626396};
+        var sober = {lat: 42.4618678, lng: -7.5870143};
+        var lobeira = {lat: 41.9874451, lng: -8.0395899};
+        var bande = {lat: 42.0315931, lng: -7.9751244};
+        var ourense_posio = {lat: 42.3305642, lng: -7.8643945};
+        var caldelas = {lat: 42.374741, lng: -7.4156271};
+        var ourense_buenos_aires = {lat: 42.342347, lng: -7.8548786};
+        var verin = {lat: 41.9420514, lng: -7.4383811};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 9,
+          center: galicia
+        });
+
+        new google.maps.Marker({ position: cambre, map: map, title: 'UM18' });
+        new google.maps.Marker({ position: coru_conchiñas, map: map, title: 'UM18' });
+        new google.maps.Marker({ position: arteixo, map: map, title: 'UM18' });
+        new google.maps.Marker({ position: carballo, map: map, title: 'UM18' });
+        new google.maps.Marker({ position: ferrol, map: map, title: 'UM13' });
+        new google.maps.Marker({ position: as_pontes, map: map, title: 'UM13' });
+        new google.maps.Marker({ position: cedeira, map: map, title: 'UM13' });
+        new google.maps.Marker({ position: coru_villa_negreira, map: map, title: 'UM10'});
+        new google.maps.Marker({ position: betanzos, map: map, title: 'UM10'});
+        new google.maps.Marker({ position: coru_cuatro_caminos, map: map, title: 'UM10'});
+        new google.maps.Marker({ position: ribeira, map: map, title: 'UM19' });
+        new google.maps.Marker({ position: pobra, map: map, title: 'UM19' });
+        new google.maps.Marker({ position: negreira, map: map, title: 'UM19' });
+        new google.maps.Marker({ position: noia, map: map, title: 'UM19' });
+        new google.maps.Marker({ position: xuño, map: map, title: 'UM14' });
+        new google.maps.Marker({ position: frades, map: map, title: 'UM14' });
+        new google.maps.Marker({ position: aguiño, map: map, title: 'UM14' });
+        new google.maps.Marker({ position: a_silva, map: map, title: 'UM14' });
+        new google.maps.Marker({ position: marin, map: map, title: 'UM12' });
+        new google.maps.Marker({ position: catoira, map: map, title: 'UM12' });
+        new google.maps.Marker({ position: caldas_de_reis, map: map, title: 'UM12' });
+        new google.maps.Marker({ position: vilagarcia, map: map, title: 'UM12' });
+        new google.maps.Marker({ position: mondariz, map: map, title: 'UM17'});
+        new google.maps.Marker({ position: bueu, map: map, title: 'UM17'});
+        new google.maps.Marker({ position: vigo_travesas, map: map, title: 'UM17'});
+        new google.maps.Marker({ position: a_guarda, map: map, title: 'UM17'});
+        new google.maps.Marker({ position: moaña, map: map, title: 'UM11'});
+        new google.maps.Marker({ position: cangas, map: map, title: 'UM11'});
+
+        new google.maps.Marker({ position: lobeira, map: map, title: 'UM15' });
+        new google.maps.Marker({ position: bande, map: map, title: 'UM15' });
+        new google.maps.Marker({ position: ourense_posio, map: map, title: 'UM15' });
+        new google.maps.Marker({ position: caldelas, map: map, title: 'UM15' });
+        new google.maps.Marker({ position: ourense_buenos_aires, map: map, title: 'UM15' });
+        new google.maps.Marker({ position: verin, map: map, title: 'UM15' });
+        new google.maps.Marker({ position: foz, map: map, title: 'UM16' });
+        new google.maps.Marker({ position: burela, map: map, title: 'UM16' });
+        new google.maps.Marker({ position: antas_de_ulla, map: map, title: 'UM16' });
+        new google.maps.Marker({ position: rabade, map: map, title: 'UM16' });
+        new google.maps.Marker({ position: ribadeo, map: map, title: 'UM16' });
+        new google.maps.Marker({ position: ferreira_de_panton, map: map, title: 'UM16' });
+        new google.maps.Marker({ position: sober, map: map, title: 'UM16' });
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCv_lVGDG0FvfK2t3R8vrOoa8CiMj7Gbs&callback=initMap">
+    </script>
+  </body>
+</html>
