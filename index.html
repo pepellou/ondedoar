@@ -13,12 +13,42 @@
         margin: 0;
         padding: 0;
       }
+      .hidden {
+        display: none;
+      }
     </style>
-    <script src="map.js">
-    </script>
+    <script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>
+    <script src="data.js"></script>
   </head>
   <body>
     <div id="map"></div>
+
+    <!-- templates -->
+    <div id="description_punto_fixo" class="hidden">
+        <h2>{{title}}</h2>
+        <ul>
+            {{#schedule}}
+                <li>{{line}}</li>
+            {{/schedule}}
+        </ul>
+        {{#schedules}}
+            <h3>{{title}}</h3>
+            <ul>
+            {{#lines}}
+                <li>{{line}}</li>
+            {{/lines}}
+            </ul>
+        {{/schedules}}
+        <p>
+            {{#additional_info}}
+                {{line}}<br/>
+            {{/additional_info}}
+        </p>
+    </div>
+    <!-- -->
+
+    <script src="templates.js"></script>
+    <script src="map.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCv_lVGDG0FvfK2t3R8vrOoa8CiMj7Gbs&callback=initMap">
     </script>
   </body>

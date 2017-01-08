@@ -1,20 +1,12 @@
-var content_fixo_coru = '<h2>Punto fixo Coruña</h2><ul><li>Luns a venres de 8:00 a 22:00</li><li>Sábado de 8:00 a 15:00</li></ul><p>Hospital A Coruña<br/>As Xubias, 84. 15006 A Coruña<br/>Teléfono 981227430<br/>Aparcamento gratuíto no parking público</p>';
-var content_fixo_santiago = '<h2>Punto fixo Santiago de Compostela</h2><ul><li>Luns a venres de 8:00 a 22:00</li><li>Sábado de 8:00 a 15:00</li></ul><p>Avenida Monte da Condesa, s/n<br/>15706 Santiago de Compostela<br/>Teléfono 881546900<br/>Aparcamento gratuíto diante do CTG</p>';
-var content_fixo_vigo = '<h2>Punto fixo Vigo</h2><ul><li>Luns a venres de 8:00 a 22:00</li><li>Sábados de 8:00 a 15:00</li></ul><p>Hospital Nicolás Peña<br/>Pavillón 4, planta baixa<br/>Avenida Camelias, 109<br/>Vigo<br/>Teléfono 986219174<br/>Aparcamento gratuíto parking Pintor Colmeiro</p>';
-var content_fixo_pontevedra = '<h2>Punto fixo Pontevedra</h2><h3>Horario de inverno (de outubro a abril)</h3><ul><li>Luns e venres de 8:00 a 15:00</li><li>Martes, mércores e xoves de 15:00 a 22:00</li></ul><h3>Horario de verán (de maio a setembro)</h3><ul><li>Luns a venres de 8:00 a 15:00</li></ul><p>Hospital Provincial de Pontevedra<br/>Módulos de atención, ao carón da entrada de Urxencias Pediátricas<br/>Rúa Loureiro Crespo, 2<br/>Pontevedra<br/>Teléfono 986800000<br/>Aparcamento gratuíto parking Centro Ciudad Veters. Rúa Antón Fraguas, s/n (baixos Hipercor)</p>';
-var content_fixo_ourense = '<h2>Punto fixo Ourense</h2><h3>Horario de inverno (de outubro a maio)</h3><ul><li>Luns de 8:00 a 22:00</li><li>Martes, mércores e xoves de 8:00 a 15:00</li><li>Venres de 15:00 a 22:00</li></ul><h3>Horario de verán (de xuño a setembro)</h3><ul><li>Luns a venres de 8:00 a 15:00</li></ul><p>Complexo hospitalario de Ourense<br/>Edificio Cristal. Fronte ao Edificio Administrativo, antiga entrada de Urxencias<br/>Rúa Ramón Puga, 52-54<br/>32005 Ourense<br/>Teléfono 988370103<br/>Aparcamento gratuíto no parking Santa María Nai, fronte ao hospital</p>';
-var content_fixo_lugo = '<h2>Punto fixo Lugo</h2><h3>Horario de inverno (de outubro a marzo)</h3><ul><li>Luns e venres de 8:00 a 22:00</li><li>Martes, mércores e xoves de 8:00 a 15:00</li></ul><h3>Horario de verán (de abril a setembro)</h3><ul><li>Luns a venres de 8:00 a 15:00</li></ul><p>Hospital Lucus Augusti<br/>Sala de doazón: cuarto andar, fronte as escaleiras mecánicas do acceso principal<br/>San Cibrao, s/n<br/>27003 Lugo<br/>Teléfono 982221064<br/>Aparcamento gratuíto na prazas do persoal do hospital (solicitar acceso no posto de seguridade)</p>';
-var content_fixo_ferrol = '<h2>Punto fixo Ferrol</h2><ul><li>Luns e venres de 8:00 a 22:00</li><li>Martes, mércores e xoves de 8:00 a 15:00</li></ul><p>Hospital Arquitecto Marcide. Andar cero<br/>Ao carón da escaleira mecánica, fronte ao laboratorio<br/>Estrada de San Pedro de Leixa, s/n<br/>15405 Ferrol<br/>Teléfono 981334541<br/>Aparcamento gratuíto no parking do hospital</p>';
-
-function createMarker(position, map, title, content) {
+function createMarker(point, map) {
     var marker = new google.maps.Marker({
-        position: position,
+        position: {lat: point.lat, lng: point.lng},
         map: map,
-        title: title,
+        title: point.title,
         icon: 'blood.png'
     });
     marker.addListener('click', function() {
-        new google.maps.InfoWindow({ content: content }).open(map, marker);
+        new google.maps.InfoWindow({ content: tpl_punto_fixo.render(point) }).open(map, marker);
     });
     return marker;
 }
@@ -104,13 +96,6 @@ function initMap() {
     var caldelas = {lat: 42.374741, lng: -7.4156271};
     var ourense_buenos_aires = {lat: 42.342347, lng: -7.8548786};
     var verin = {lat: 41.9420514, lng: -7.4383811};
-    var fixo_coru = {lat: 43.344109, lng: -8.388879};
-    var fixo_santiago = {lat: 42.8764632, lng: -8.5580331};
-    var fixo_vigo = {lat: 42.225449, lng: -8.728822};
-    var fixo_pontevedra = {lat: 42.42888, lng: -8.637958};
-    var fixo_ourense = {lat: 42.32725, lng: -7.8599167};
-    var fixo_lugo = {lat: 43.020292, lng: -7.535082};
-    var fixo_ferrol = {lat: 43.5102778, lng: -8.2161667};
 
     var info_cambre = new google.maps.InfoWindow({ content: content_cambre });
     var info_coru_conchiñas = new google.maps.InfoWindow({ content: content_coru_conchiñas });
@@ -153,13 +138,6 @@ function initMap() {
     var info_caldelas = new google.maps.InfoWindow({ content: content_caldelas });
     var info_ourense_buenos_aires = new google.maps.InfoWindow({ content: content_ourense_buenos_aires });
     var info_verin = new google.maps.InfoWindow({ content: content_verin });
-    var info_fixo_coru = new google.maps.InfoWindow({ content: content_fixo_coru });
-    var info_fixo_santiago = new google.maps.InfoWindow({ content: content_fixo_santiago });
-    var info_fixo_vigo = new google.maps.InfoWindow({ content: content_fixo_vigo });
-    var info_fixo_pontevedra = new google.maps.InfoWindow({ content: content_fixo_pontevedra });
-    var info_fixo_ourense = new google.maps.InfoWindow({ content: content_fixo_ourense });
-    var info_fixo_lugo = new google.maps.InfoWindow({ content: content_fixo_lugo });
-    var info_fixo_ferrol = new google.maps.InfoWindow({ content: content_fixo_ferrol });
 
     var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 9,
@@ -249,12 +227,9 @@ function initMap() {
     var marker_sober = new google.maps.Marker({ position: sober, map: map, title: 'UM16', icon: 'blood.png' });
     marker_sober.addListener('click', function() { info_sober.open(map, marker_sober); });
 
-    createMarker(fixo_coru, map, 'Punto fixo Coruña', content_fixo_coru);
-    createMarker(fixo_santiago, map, 'Punto fixo Santiago', content_fixo_santiago);
-    createMarker(fixo_vigo, map, 'Punto fixo Vigo', content_fixo_vigo);
-    createMarker(fixo_pontevedra, map, 'Punto fixo Pontevedra', content_fixo_pontevedra);
-    createMarker(fixo_ourense, map, 'Punto fixo Ourense', content_fixo_ourense);
-    createMarker(fixo_lugo, map, 'Punto fixo Lugo', content_fixo_lugo);
-    createMarker(fixo_ferrol, map, 'Punto fixo Ferrol', content_fixo_ferrol);
+    for (var i in puntos_fixos) {
+        var punto = puntos_fixos[i];
+        createMarker(punto, map);
+    }
 }
 
