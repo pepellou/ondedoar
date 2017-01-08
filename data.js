@@ -163,7 +163,11 @@ var puntos_mobiles = [
                     { from: '16:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '32519 VERIN',
+            street: 'PRAZA GARCIA BARBÓN (Praza Maior)'
+        }
     },
     {
         lat: 43.2925717,
@@ -177,7 +181,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15422 CAMBRE',
+            street: 'DIANTE DO CONCELLO'
+        }
     },
     {
         lat: 43.3613589,
@@ -191,7 +199,11 @@ var puntos_mobiles = [
                     { from: '15:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15270 PRAZA CONCHIÑAS (A CORUÑA)',
+            street: 'PRAZA DAS CONCHIÑAS'
+        }
     },
     {
         lat: 43.3051599,
@@ -205,7 +217,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15390 ARTEIXO',
+            street: 'ENTRADA DA RUA PEONIL'
+        }
     },
     {
         lat: 43.2131445,
@@ -225,7 +241,11 @@ var puntos_mobiles = [
                     { from: '10:00', to: '15:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15544 CARBALLO',
+            street: 'PRAZA DO CONCELLO'
+        }
     },
     {
         lat: 43.4840615,
@@ -238,7 +258,11 @@ var puntos_mobiles = [
                     { from: '15:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15191 Bº CARANZA (FERROL)',
+            street: 'AO CARÓN DO MERCADO'
+        }
     },
     {
         lat: 43.4508936,
@@ -259,7 +283,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15243 AS PONTES',
+            street: 'DIANTE DO CONCELLO (RÚA PEATONAL)'
+        }
     },
     {
         lat: 43.6608476,
@@ -273,7 +301,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15164 CEDEIRA',
+            street: 'PRAZA DE GALICIA (PARADA DO BUS)'
+        }
     },
     {
         lat: 43.3635388,
@@ -286,7 +318,11 @@ var puntos_mobiles = [
                     { from: '15:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15327 Bº VILLA NEGREIRA (A CORUÑA)',
+            street: 'RUA VILLA DE NEGREIRA Nº 53 (ESQUINA RUA BARCELONA)'
+        }
     },
     {
         lat: 43.2797688,
@@ -305,7 +341,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15491 BETANZOS',
+            street: 'PRAZA GARCÍA HERMANOS'
+        }
     },
     {
         lat: 43.3551556,
@@ -318,7 +358,11 @@ var puntos_mobiles = [
                     { from: '15:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15314 ZONA CUATRO CAMINOS (A CORUÑA)',
+            street: 'RUA RAMÓN Y CAJAL (Fronte ao Centro Comercial Cuatro Caminos)'
+        }
     },
     {
         lat: 42.5550502,
@@ -332,7 +376,11 @@ var puntos_mobiles = [
                     { from: '16:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15873 RIBEIRA',
+            street: 'PRAZA DO CONCELLO'
+        }
     },
     {
         lat: 42.6069103,
@@ -346,7 +394,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15857 POBRA CARAMIÑAL',
+            street: 'PRAZA ALCALDE SEGUNDO DURÁN (PRAZA MAIOR)'
+        }
     },
     {
         lat: 42.9115098,
@@ -360,7 +412,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15762 NEGREIRA',
+            street: 'DIANTE DO CENTRO DE SAÚDE'
+        }
     },
     {
         lat: 42.7848581,
@@ -380,7 +436,11 @@ var puntos_mobiles = [
                     { from: '10:00', to: '15:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15795 NOIA',
+            street: 'DIANTE DO CONCELLO'
+        }
     },
     {
         lat: 42.6364523,
@@ -393,7 +453,11 @@ var puntos_mobiles = [
                     { from: '16:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15815 XUÑO (PORTO DO SON)',
+            street: 'NO CRUCE DE AGRA.  DIANTE DO SUPERMERCADO DE VILAS'
+        }
     },
     {
         lat: 43.0384621,
@@ -406,7 +470,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15596 FRADES, PONTECARREIRA',
+            street: 'DIANTE DO CENTRO DE SAÚDE'
+        }
     },
     {
         lat: 42.5205068,
@@ -419,7 +487,11 @@ var puntos_mobiles = [
                     { from: '16:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15879 AGUIÑO (RIBEIRA)',
+            street: 'EXPLANADA DO PORTO'
+        }
     },
     {
         lat: 43.1588507,
@@ -432,7 +504,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '15589 A SILVA (CERCEDA)',
+            street: 'CAMPO DA FEIRA'
+        }
     },
     {
         lat: 42.3931819,
@@ -446,7 +522,11 @@ var puntos_mobiles = [
                     { from: '15:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '36314 MARIN',
+            street: 'XARDINS DA ALAMEDA'
+        }
     },
     {
         lat: 42.6720452,
@@ -460,7 +540,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '36023 CATOIRA',
+            street: 'RUA ESTACION'
+        }
     },
     {
         lat: 42.6039039,
@@ -474,7 +558,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '36012 CALDAS DE REIS',
+            street: 'PASEO (XUNTO O CENTRO DE SAUDE)'
+        }
     },
     {
         lat: 42.5936207,
@@ -494,7 +582,11 @@ var puntos_mobiles = [
                     { from: '10:00', to: '15:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '36162 VILAGARCIA',
+            street: 'RUA CASTELAO ZONA PEATONAL (XUNTO AO RIO CON)'
+        }
     },
     {
         lat: 42.23212,
@@ -508,7 +600,11 @@ var puntos_mobiles = [
                     { from: '16:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '36603 MONDARIZ',
+            street: 'DIANTE DA IGREXA'
+        }
     },
     {
         lat: 42.3275511,
@@ -522,7 +618,11 @@ var puntos_mobiles = [
                     { from: '16:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '36293 BUEU',
+            street: 'XUNTO A ANTIGA CASA DO MAR'
+        }
     },
     {
         lat: 42.2203076,
@@ -536,7 +636,11 @@ var puntos_mobiles = [
                     { from: '15:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '36492 ZONA AS TRAVESAS (VIGO)',
+            street: 'PRAZA AMERICA (ENTRE AVD.FRAGOSO e AVDA CASTRELOS)'
+        }
     },
     {
         lat: 41.9021648,
@@ -556,7 +660,11 @@ var puntos_mobiles = [
                     { from: '10:00', to: '15:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '36686 A GUARDA',
+            street: 'PRAZA AVELINO VICENTE (NA PARADA DO BUS, FRONTE A FROIZ)'
+        }
     },
     {
         lat: 42.2847719,
@@ -575,7 +683,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '36323 MOAÑA',
+            street: 'DIANTE DO CENTRO DE SAUDE'
+        }
     },
     {
         lat: 42.2633274,
@@ -594,7 +706,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '36300 CANGAS DO MORRAZO',
+            street: 'ALAMEDA'
+        }
     },
     {
         lat: 43.5682616,
@@ -607,7 +723,11 @@ var puntos_mobiles = [
                     { from: '16:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '27066 FOZ',
+            street: 'AO CARÓN DO CONCELLO'
+        }
     },
     {
         lat: 43.6595663,
@@ -621,7 +741,11 @@ var puntos_mobiles = [
                     { from: '17:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '27060 BURELA',
+            street: 'PRAZA DO CONCELLO'
+        }
     },
     {
         lat: 42.7827464,
@@ -634,7 +758,11 @@ var puntos_mobiles = [
                     { from: '10:00', to: '14:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '27260 ANTAS DE ULLA',
+            street: 'FRONTE AO CONCELLO'
+        }
     },
     {
         lat: 43.1216101,
@@ -647,7 +775,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '27254 RABADE',
+            street: 'PRAZA DE ESPAÑA'
+        }
     },
     {
         lat: 43.5356295,
@@ -661,7 +793,11 @@ var puntos_mobiles = [
                     { from: '17:00', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '27098 RIBADEO',
+            street: 'AO CARÓN DA ANTIGA OFICINA DE TURISMO'
+        }
     },
     {
         lat: 42.5051804,
@@ -674,7 +810,11 @@ var puntos_mobiles = [
                     { from: '10:30', to: '12:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '27380 FERREIRA DE PANTON',
+            street: 'RUA OURENSE (FRONTE AO BANCO PASTOR)'
+        }
     },
     {
         lat: 42.4618678,
@@ -687,7 +827,11 @@ var puntos_mobiles = [
                     { from: '12:30', to: '14:30' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '27389 SOBER',
+            street: 'PRAZA DO CONCELLO'
+        }
     },
     {
         lat: 41.9874451,
@@ -700,7 +844,11 @@ var puntos_mobiles = [
                     { from: '16:00', to: '18:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '32425 LOBEIRA',
+            street: 'AO CARON DO CENTRO DE SAUDE'
+        }
     },
     {
         lat: 42.0315931,
@@ -713,7 +861,11 @@ var puntos_mobiles = [
                     { from: '18:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '32416 BANDE',
+            street: 'DIANTE DO CONCELLO'
+        }
     },
     {
         lat: 42.3305642,
@@ -727,7 +879,11 @@ var puntos_mobiles = [
                     { from: '15:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '32099 Bº O POSIO (OURENSE)',
+            street: 'RUA CORUÑA Nº 12'
+        }
     },
     {
         lat: 42.374741,
@@ -740,7 +896,11 @@ var puntos_mobiles = [
                     { from: '10:30', to: '14:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '32209 CASTRO CALDELAS',
+            street: 'PRAZA DO PRADO'
+        }
     },
     {
         lat: 42.342347,
@@ -753,6 +913,10 @@ var puntos_mobiles = [
                     { from: '15:30', to: '21:00' }
                 ]
             }
-        ]
+        ],
+        indications: {
+            place: '32108 AVDA. BUENOS AIRES (OURENSE)',
+            street: 'FRONTE AO SUPERMERCADO "SPAR" (Avd. Buenos Aires nº 136)'
+        }
     }
 ];
