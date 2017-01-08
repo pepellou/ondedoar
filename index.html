@@ -24,6 +24,7 @@
     <div id="map"></div>
 
     <!-- templates -->
+
     <div id="description_punto_fixo" class="hidden">
         <h2>{{title}}</h2>
         <ul>
@@ -45,6 +46,18 @@
             {{/additional_info}}
         </p>
     </div>
+
+    <div id="description_punto_mobil" class="hidden">
+        {{#schedules}}
+            <h2>{{day}}</h2>
+            <p>
+                {{#hours}}
+                    {{from}} - {{to}}<br/>
+                {{/hours}}
+            </p>
+        {{/schedules}}
+    </div>
+
     <!-- -->
 
     <script src="templates.js"></script>
