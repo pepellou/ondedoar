@@ -152,308 +152,448 @@ var puntos_fixos = [
 
 var puntos_mobiles = [
     {
-        lat: 43.5014061,
-        lng: -8.2025768,
+        lat: 43.5348583,
+        lng: -7.9440497,
         title: 'UM13',
         schedules: [
             {
-                day: 'Luns, 9/1/2017',
+                day: 'Luns 16/01/2017',
                 hours: [
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15218 NARON',
-            street: 'SOLAINA, PRAZA DA CONSTITUCIÓN'
-        }
-    },
-    {
-        lat: 43.5007891,
-        lng: -8.1916668,
-        title: 'UM13',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:30' },
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15218 NARON',
-            street: 'AO CARÓN DO CENTRO DE SAÚDE'
-        }
-    },
-    {
-        lat: 43.4058857,
-        lng: -8.1691023,
-        title: 'UM13',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:30' },
                     { from: '16:00', to: '21:00' }
                 ]
             }
         ],
         indications: {
-            place: '15264 PONTEDEUME',
-            street: 'ALAMEDA DE RAXOI'
-        }
-    },
-    {
-        lat: 43.4845637,
-        lng: -8.232951,
-        title: 'UM13',
-        schedules: [
-            {
-                day: 'Xoves, 12/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:30' },
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15190 PRAZA DE ARMAS (FERROL)',
-            street: 'DIANTE DO CONCELLO (No reservado da Policia Municipal)'
-        }
-    },
-    {
-        lat: 43.4859425,
-        lng: -8.2285717,
-        title: 'UM13',
-        schedules: [
-            {
-                day: 'Venres, 13/1/2017',
-                hours: [
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15178 PRAZA DE ESPAÑA (FERROL)',
-            street: 'AO CARÓN DO BANCO SANTANDER'
-        }
-    },
-    {
-        lat: 43.4931948,
-        lng: -8.2006737,
-        title: 'UM13',
-        schedules: [
-            {
-                day: 'Sábado, 14/1/2017',
-                hours: [
-                    { from: '10:00', to: '15:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15223 ZONA A GÁNDARA (NARÓN)',
-            street: 'PRAZA DA GÁNDARA (Rúa Pintor Sotomaior)'
-        }
-    },
-    {
-        lat: 43.0764781,
-        lng: -8.4082062,
-        title: 'UM18',
-        schedules: [
-            {
-                day: 'Luns, 9/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:00' },
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15611 ORDES',
-            street: 'DETRÁS DO CONCELLO (ENTRE OS PARQUES MUNICIPAIS)'
-        }
-    },
-    {
-        lat: 43.3515392,
-        lng: -8.2534083,
-        title: 'UM18',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:00' },
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15477 SADA',
-            street: 'FRONTE AO CONCELLO'
-        }
-    },
-    {
-        lat: 43.3504714,
-        lng: -8.4178703,
-        title: 'UM18',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:00' }
-                ]
-            },
-            {
-                day: 'Xoves, 12/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15271 I.E.S. URBANO LUGRÍS (A CORUÑA)',
-            street: 'DIANTE DO INSTITUTO'
-        }
-    },
-    {
-        lat: 43.3686771,
-        lng: -8.4022913,
-        title: 'UM18',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '15:30', to: '21:00' }
-                ]
-            },
-            {
-                day: 'Xoves, 12/1/2017',
-                hours: [
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15272 CANTÓN PEQUENO (A CORUÑA)',
-            street: 'OBELISCO'
-        }
-    },
-    {
-        lat: 43.1904213,
-        lng: -8.4729719,
-        title: 'UM18',
-        schedules: [
-            {
-                day: 'Venres, 13/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:30' },
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15587 CERCEDA',
-            street: 'CAMPO DA FEIRA'
-        }
-    },
-    {
-        lat: 43.1102658,
-        lng: -9.0346962,
-        title: 'UM18',
-        schedules: [
-            {
-                day: 'Sábado, 14/1/2017',
-                hours: [
-                    { from: '10:00', to: '15:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15689 VIMIANZO',
+            place: '15234 AS SOMOZAS',
             street: 'DIANTE DO CONCELLO'
         }
     },
     {
-        lat: 43.2464197,
-        lng: -8.2727016,
+        lat: 43.3163792,
+        lng: -8.3679136,
+        title: 'UM18',
+        schedules: [
+            {
+                day: 'Luns 16/01/2017',
+                hours: [
+                    { from: '09:30', to: '14:30' },
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15438 O BURGO (CULLEREDO)',
+            street: 'PRAZA DE EUROPA'
+        }
+    },
+    {
+        lat: 43.1888373,
+        lng: -8.0210952,
         title: 'UM10',
         schedules: [
             {
-                day: 'Luns, 9/1/2017',
+                day: 'Luns 16/01/2017',
+                hours: [
+                    { from: '16:00', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15486 ARANGA',
+            street: 'NA CASTELLANA AO CARÓN DA FARMACIA'
+        }
+    },
+    {
+        lat: 42.8447343,
+        lng: -8.5767838,
+        title: 'UM19',
+        schedules: [
+            {
+                day: 'Luns 16/01/2017',
+                hours: [
+                    { from: '09:30', to: '14:30' },
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15085 MILLADOIRO (AMES)',
+            street: 'RUA CRUXA (AO CARON DE SUPERMERCADOS EL ARBOL)'
+        }
+    },
+    {
+        lat: 42.51499,
+        lng: -8.8152165,
+        title: 'UM12',
+        schedules: [
+            {
+                day: 'Luns 16/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:00' },
+                    { from: '16:00', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36113 CAMBADOS',
+            street: 'XUNTO AO CENTRO DE SAUDE'
+        }
+    },
+    {
+        lat: 42.1415502,
+        lng: -8.8065327,
+        title: 'UM17',
+        schedules: [
+            {
+                day: 'Luns 16/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:30' },
+                    { from: '16:00', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36378 NIGRAN',
+            street: 'DIANTE DO CONCELLO'
+        }
+    },
+    {
+        lat: 42.2310357,
+        lng: -8.7041497,
+        title: 'UM11',
+        schedules: [
+            {
+                day: 'Luns 16/01/2017',
+                hours: [
+                    { from: '15:30', to: '21:00' }
+                ]
+            },
+            {
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36491 ZONA O CALVARIO (VIGO)',
+            street: 'RUA URZAIZ (DIANTE DO MERCADO)'
+        }
+    },
+    {
+        lat: 43.1255602,
+        lng: -7.0699995,
+        title: 'UM16',
+        schedules: [
+            {
+                day: 'Luns 16/01/2017',
+                hours: [
+                    { from: '16:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '27185 A FONSAGRADA',
+            street: 'FRONTE AO MUSEO'
+        }
+    },
+    {
+        lat: 42.3189697,
+        lng: -7.881245,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Luns 16/01/2017',
+                hours: [
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32065 A VALENZA (BARBADAS)',
+            street: 'DIANTE DA FARMACIA (Avda de Celanova, nº 72)'
+        }
+    },
+    {
+        lat: 43.4718729,
+        lng: -8.1787153,
+        title: 'UM13',
+        schedules: [
+            {
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '09:30', to: '14:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15169 NAVANTIA – FENE',
+            street: 'DIANTE DOS SERVICIOS MEDICOS'
+        }
+    },
+    {
+        lat: 43.4135824,
+        lng: -8.1679392,
+        title: 'UM13',
+        schedules: [
+            {
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '16:00', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15251 CABANAS',
+            street: 'FRONTE A FARMACIA (No aparcamento)'
+        }
+    },
+    {
+        lat: 43.341707,
+        lng: -8.4022493,
+        title: 'UM18',
+        schedules: [
+            {
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '09:30', to: '14:30' },
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15334 URB. MATOGRANDE (A CORUÑA)',
+            street: 'A CARON DO "COLEGIO LICEO LA PAZ"'
+        }
+    },
+    {
+        lat: 43.1231019,
+        lng: -8.1483711,
+        title: 'UM10',
+        schedules: [
+            {
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '16:00', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15507 CURTIS',
+            street: 'DIANTE DA CASA DA XUVENTUDE'
+        }
+    },
+    {
+        lat: 42.3944917,
+        lng: -8.7083421,
+        title: 'UM19, UM12 e UM17',
+        schedules: [
+            {
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '09:30', to: '14:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36312 ESCUELA NAVAL MARIN-PONTEVEDRA',
+            street: 'DELANTE DEL EDIFICIO ALMIRANTE FRANCISCO MORENO'
+        }
+    },
+    {
+        lat: 42.7743789,
+        lng: -9.0572462,
+        title: 'UM19',
+        schedules: [
+            {
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '16:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15776 MUROS',
+            street: 'DIANTE DO CONCELLO'
+        }
+    },
+    {
+        lat: 42.787084,
+        lng: -8.8874959,
+        title: 'UM14',
+        schedules: [
+            {
+                day: 'Martes 17/01/2017',
                 hours: [
                     { from: '10:00', to: '14:30' }
                 ]
             }
         ],
         indications: {
-            place: '15385 CENTRO INVESTIGACIÓN (ABEGONDO)',
-            street: 'APARCAMENTO DE PASTOS DO CIAM'
+            place: '15798 I.E.S. CAMPO DE SAN ALBERTO (NOIA)',
+            street: 'NO PATIO'
         }
     },
     {
-        lat: 43.3625593,
-        lng: -8.4153882,
-        title: 'UM10',
+        lat: 42.5635318,
+        lng: -8.872421,
+        title: 'UM12',
         schedules: [
             {
-                day: 'Martes, 10/1/2017',
+                day: 'Martes 17/01/2017',
                 hours: [
-                    { from: '09:30', to: '14:30' }
-                ]
-            },
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:30' }
+                    { from: '16:00', to: '21:00' }
                 ]
             }
         ],
         indications: {
-            place: '15343 CIFP PASEO DAS PONTES (A CORUÑA)',
-            street: 'DIANTE DO INSTITUTO'
+            place: '36108 ILLA DE AROUSA',
+            street: 'PASEO MARITIMO DO CAMPO'
         }
     },
     {
-        lat: 43.3497849,
-        lng: -8.4158489,
-        title: 'UM10',
+        lat: 42.2031887,
+        lng: -8.6853684,
+        title: 'UM17',
         schedules: [
             {
-                day: 'Xoves, 12/1/2017',
+                day: 'Martes 17/01/2017',
                 hours: [
-                    { from: '09:30', to: '14:00' }
+                    { from: '16:00', to: '21:00' }
                 ]
             }
         ],
         indications: {
-            place: '15355 IES A SARDIÑEIRA (A CORUÑA)',
-            street: 'DIANTE DO INSTITUTO'
+            place: '36523 BEMBRIVE (VIGO)',
+            street: 'DIANTE DO CENTRO CULTURAL'
         }
     },
     {
-        lat: 43.3118419,
-        lng: -8.5101223,
-        title: 'UM10',
+        lat: 43.3547504,
+        lng: -7.8134069,
+        title: 'UM16',
         schedules: [
             {
-                day: 'Venres, 13/1/2017',
+                day: 'Martes 17/01/2017',
                 hours: [
-                    { from: '09:30', to: '14:30' }
+                    { from: '10:00', to: '14:00' }
                 ]
             }
         ],
         indications: {
-            place: '15393 I.E.S. SABON (ARTEIXO)',
-            street: 'DIANTE DO INSTITUTO'
+            place: '27156 XERMADE',
+            street: 'AO CARÓN DO CONCELLO'
         }
     },
     {
-        lat: 42.9697926,
-        lng: -8.4408466,
-        title: 'UM19',
+        lat: 43.4226268,
+        lng: -7.7645976,
+        title: 'UM16',
         schedules: [
             {
-                day: 'Luns, 9/1/2017',
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '16:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '27157 ROUPAR (XERMADE)',
+            street: 'EN ROUPAR (NA CASA NOVA)'
+        }
+    },
+    {
+        lat: 42.4666951,
+        lng: -8.2731275,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '11:00', to: '12:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32011 BEARIZ',
+            street: 'DIANTE DO CONCELLO'
+        }
+    },
+    {
+        lat: 42.431547,
+        lng: -8.1432684,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '13:00', to: '14:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32015 BOBORAS',
+            street: 'AO CARON DO COLEXIO'
+        }
+    },
+    {
+        lat: 42.0609228,
+        lng: -7.4618748,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Martes 17/01/2017',
+                hours: [
+                    { from: '16:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32498 LAZA',
+            street: 'DIANTE DO CONCELLO'
+        }
+    },
+    {
+        lat: 43.3889257,
+        lng: -8.164067,
+        title: 'UM13',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15266 GTMOTIVE (PONTEDEUME)',
+            street: 'UNIDAD MÓVIL EN EL APARCAMIENTO DE LA EMPRESA'
+        }
+    },
+    {
+        lat: 43.558177,
+        lng: -8.2092718,
+        title: 'UM13',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15221 O VAL (NARON)',
+            street: 'AO CARON DA COOPERATIVA'
+        }
+    },
+    {
+        lat: 43.2486043,
+        lng: -8.5824021,
+        title: 'UM18',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
                 hours: [
                     { from: '10:00', to: '14:00' },
                     { from: '16:00', to: '21:00' }
@@ -461,756 +601,274 @@ var puntos_mobiles = [
             }
         ],
         indications: {
-            place: '15625 SIGÜEIRO (OROSO)',
-            street: 'DIANTE DO CENTRO MÉDICO'
-        }
-    },
-    {
-        lat: 42.8745104,
-        lng: -8.5493507,
-        title: 'UM19',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:30' },
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15040 PRAZA ROXA (SANTIAGO)',
-            street: 'PRAZA ROXA'
-        }
-    },
-    {
-        lat: 42.8804041,
-        lng: -8.5460469,
-        title: 'UM19',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:30' },
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15061 PRAZA DO OBRADOIRO (SANTIAGO)',
-            street: 'DIANTE DO PAZO DE RAXOI'
-        }
-    },
-    {
-        lat: 42.902878,
-        lng: -8.5108928,
-        title: 'UM19',
-        schedules: [
-            {
-                day: 'Xoves, 12/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:30' },
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15072 PARQUE EMPRESARIAL COSTA VELLA (SANTIAGO)',
-            street: 'APARCADOIRO EXTEROIR DE LEROY MERLIN'
-        }
-    },
-    {
-        lat: 42.6472952,
-        lng: -8.8829796,
-        title: 'UM19',
-        schedules: [
-            {
-                day: 'Venres, 13/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:00' },
-                    { from: '16:00', to: '21:00' }
-                ]
-            },
-            {
-                day: 'Sábado, 14/1/2017',
-                hours: [
-                    { from: '10:00', to: '15:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15840 BOIRO',
+            place: '15560 A LARACHA',
             street: 'PRAZA DO CONCELLO'
         }
     },
     {
-        lat: 42.7313252,
-        lng: -8.6711517,
+        lat: 43.3613589,
+        lng: -8.4194143,
+        title: 'UM10',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15270 PRAZA CONCHIÑAS (A CORUÑA)',
+            street: 'PRAZA DAS CONCHIÑAS'
+        }
+    },
+    {
+        lat: 42.8826201,
+        lng: -8.5276633,
+        title: 'UM19',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '09:30', to: '14:30' },
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15035 AREA CENTRAL FONTIÑAS (SANTIAGO)',
+            street: 'FRONTE Á CABINA DE INFORMACIÓN (ESCALEIRA DE ACCESO A ALCAMPO)'
+        }
+    },
+    {
+        lat: 42.8222807,
+        lng: -8.4606713,
         title: 'UM14',
         schedules: [
             {
-                day: 'Martes, 10/1/2017',
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '09:30', to: '14:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15092 C.F.E.A. SERGUDE (BOQUEIXON)',
+            street: 'APARCAMENTO DO CENTRO'
+        }
+    },
+    {
+        lat: 42.6224285,
+        lng: -8.6468083,
+        title: 'UM12',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:00' },
+                    { from: '16:00', to: '18:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36049 CLAVO S.A (CALDAS DE REIS)',
+            street: 'APARCAMENTO DA EMPRESA'
+        }
+    },
+    {
+        lat: 42.4371022,
+        lng: -8.8180361,
+        title: 'UM12',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '18:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36121 DENA (MEAÑO)',
+            street: 'XUNTO A PRAZA DE ABASTOS'
+        }
+    },
+    {
+        lat: 42.1808429,
+        lng: -8.5201981,
+        title: 'UM17',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36622 I.E.S. A GRANXA (PONTEAREAS)',
+            street: 'DIANTE DO INSTITUTO'
+        }
+    },
+    {
+        lat: 42.1134611,
+        lng: -8.7798776,
+        title: 'UM17',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
                 hours: [
                     { from: '16:00', to: '21:00' }
                 ]
             }
         ],
         indications: {
-            place: '15821 DODRO',
-            street: 'LESTROBE: APARCAMENTO DO CENTRO MÉDICO'
+            place: '36377 I.E.S. ESCOLAS PRO-VAL (NIGRAN)',
+            street: 'DIANTE DO INSTITUTO'
         }
     },
     {
-        lat: 42.9616143,
-        lng: -8.7589672,
-        title: 'UM14',
+        lat: 42.1540947,
+        lng: -8.5429342,
+        title: 'UM11',
         schedules: [
             {
-                day: 'Mércores, 11/1/2017',
+                day: 'Mércores 18/01/2017',
                 hours: [
-                    { from: '16:00', to: '21:00' }
+                    { from: '16:00', to: '18:30' }
                 ]
             }
         ],
         indications: {
-            place: '15755 A BAÑA',
-            street: 'DIANTE DO CENTRO DE SAÚDE'
+            place: '36620 GULANS (PONTEAREAS)',
+            street: 'AO CARON DA IGREXA'
         }
     },
     {
-        lat: 42.944389,
-        lng: -7.9586713,
-        title: 'UM14',
+        lat: 42.1817504,
+        lng: -8.5589986,
+        title: 'UM11',
         schedules: [
             {
-                day: 'Xoves, 12/1/2017',
-                hours: [
-                    { from: '16:30', to: '18:30' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15677 TOQUES',
-            street: 'LUGAR DO SOUTO'
-        }
-    },
-    {
-        lat: 42.8461165,
-        lng: -8.03852,
-        title: 'UM14',
-        schedules: [
-            {
-                day: 'Xoves, 12/1/2017',
+                day: 'Mércores 18/01/2017',
                 hours: [
                     { from: '19:00', to: '21:00' }
                 ]
             }
         ],
         indications: {
-            place: '15668 SANTISO',
-            street: 'DIANTE DO CONCELLO'
-        }
-    },
-    {
-        lat: 42.9048262,
-        lng: -8.3626116,
-        title: 'UM14',
-        schedules: [
-            {
-                day: 'Venres, 13/1/2017',
-                hours: [
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15650 O PINO',
-            street: 'FRONTE AO CONCELLO'
-        }
-    },
-    {
-        lat: 42.6993807,
-        lng: -8.6488527,
-        title: 'UM12',
-        schedules: [
-            {
-                day: 'Luns, 9/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36048 VALGA',
-            street: 'PONTEVALGA: FRONTE AO CONCELLO (DIANTE DA PASTELERÍA CAPRICHOS)'
-        }
-    },
-    {
-        lat: 42.6989761,
-        lng: -8.6856821,
-        title: 'UM12',
-        schedules: [
-            {
-                day: 'Luns, 9/1/2017',
-                hours: [
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36048 VALGA',
-            street: 'CORDEIRO: XUNTO AO AUDITORIO MUNICIPAL'
-        }
-    },
-    {
-        lat: 42.4364964,
-        lng: -8.6521696,
-        title: 'UM12',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:30' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36250 GUARDIA CIVIL (PONTEVEDRA)',
-            street: 'RECINTO DO CUARTEL DA GUARDIA CIVIL DE PONTEVEDRA'
-        }
-    },
-    {
-        lat: 42.4312778,
-        lng: -8.6440362,
-        title: 'UM12',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '15:30', to: '21:00' }
-                ]
-            },
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36244 ZONA HERRERIA (PONTEVEDRA)',
-            street: 'HERRERIA (XUNTO Á IGREXA DA PEREGRINA)'
-        }
-    },
-    {
-        lat: 42.562639,
-        lng: -8.88559,
-        title: 'UM12',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36109 I.GA.F.A. (ILLA AROUSA)',
-            street: 'DIANTE DA PORTA DO CENTRO'
-        }
-    },
-    {
-        lat: 42.7367599,
-        lng: -8.6614012,
-        title: 'UM12',
-        schedules: [
-            {
-                day: 'Xoves, 12/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:00' },
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '15828 PADRÓN',
-            street: 'DIANTE DA PRAZA DE ABASTOS (AO CARÓN DO PASEO DO ESPOLÓN)'
-        }
-    },
-    {
-        lat: 42.6612049,
-        lng: -8.1116125,
-        title: 'UM12',
-        schedules: [
-            {
-                day: 'Venres, 13/1/2017',
-                hours: [
-                    { from: '10:30', to: '14:00' },
-                    { from: '16:30', to: '21:00' }
-                ]
-            },
-            {
-                day: 'Sábado, 14/1/2017',
-                hours: [
-                    { from: '10:30', to: '14:30' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36083 LALÍN',
+            place: '36619 XINZO (PONTEAREAS)',
             street: 'PRAZA DA IGREXA'
         }
     },
     {
-        lat: 42.2359311,
-        lng: -8.7204093,
-        title: 'UM17',
-        schedules: [
-            {
-                day: 'Luns, 9/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:30' },
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36463 RÚA PRÍNCIPE (VIGO)',
-            street: 'AO CARÓN DA FAROLA DE PRÍNCIPE'
-        }
-    },
-    {
-        lat: 41.991536,
-        lng: -8.7432665,
-        title: 'UM17',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:00' },
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36707 TOMIÑO',
-            street: 'PRAZA DO SEIXO'
-        }
-    },
-    {
-        lat: 42.3428554,
-        lng: -8.6069481,
-        title: 'UM17',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:00' },
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36450 ARCADE (SOUTOMAIOR)',
-            street: 'RÚA ROGELIO LANDEIRA (DIANTE DO "RECUNCHO DE CRIS")'
-        }
-    },
-    {
-        lat: 42.2408419,
-        lng: -8.720706,
-        title: 'UM17',
-        schedules: [
-            {
-                day: 'Xoves, 12/1/2017',
-                hours: [
-                    { from: '09:30', to: '14:30' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36554 DELEGACIÓNS DA XUNTA DE GALICIA (VIGO)',
-            street: 'DIANTE DA PORTA PRINCIPAL'
-        }
-    },
-    {
-        lat: 42.0019977,
-        lng: -8.8735356,
-        title: 'UM17',
-        schedules: [
-            {
-                day: 'Xoves, 12/1/2017',
-                hours: [
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36693 SANTA MARÍA DE OIA',
-            street: 'DIANTE DO CONCELLO'
-        }
-    },
-    {
-        lat: 42.0492202,
-        lng: -8.6444511,
-        title: 'UM17',
-        schedules: [
-            {
-                day: 'Venres, 13/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:00' },
-                    { from: '16:00', to: '21:00' }
-                ]
-            },
-            {
-                day: 'Sábado, 14/1/2017',
-                hours: [
-                    { from: '10:00', to: '15:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36717 TUI',
-            street: 'PRAZA DE GALICIA (DIANTE DO ANTIGO CENTRO DE SAÚDE)'
-        }
-    },
-    {
-        lat: 42.0908621,
-        lng: -8.421979,
-        title: 'UM11',
-        schedules: [
-            {
-                day: 'Luns, 9/1/2017',
-                hours: [
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36594 AS NEVES',
-            street: 'FRONTE AO CENTRO DE SAÚDE'
-        }
-    },
-    {
-        lat: 42.238005,
-        lng: -8.7036056,
-        title: 'UM11',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36497 ZONA TRAVESÍA DE VIGO (VIGO)',
-            street: 'DIANTE DA CAFETERÍA "EL CORRALITO" (TRAVESÍA DE VIGO N 99-101)'
-        }
-    },
-    {
-        lat: 41.9466559,
-        lng: -8.7733539,
-        title: 'UM11',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36708 GOIÁN (TOMIÑO)',
-            street: 'PRAZA PINTOR ANTONIO FERNÁNDEZ'
-        }
-    },
-    {
-        lat: 42.223105,
-        lng: -8.6720363,
-        title: 'UM11',
-        schedules: [
-            {
-                day: 'Xoves, 12/1/2017',
-                hours: [
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36551 CABRAL (VIGO)',
-            street: 'DIANTE DA ANTIGA CAIXA GALICIA (RAMÓN NIETO N 412)'
-        }
-    },
-    {
-        lat: 42.1747061,
-        lng: -8.7217849,
-        title: 'UM11',
-        schedules: [
-            {
-                day: 'Venres, 13/1/2017',
-                hours: [
-                    { from: '15:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '36561 PARROQUIA VALLADARES (VIGO)',
-            street: 'DIANTE DO NOVO CENTRO CULTURAL'
-        }
-    },
-    {
-        lat: 43.5272728,
-        lng: -7.4173478,
+        lat: 43.5650712,
+        lng: -7.2680262,
         title: 'UM16',
         schedules: [
             {
-                day: 'Luns, 9/1/2017',
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '10:30', to: '13:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '27067 I.E.S. FOZ (FOZ)',
+            street: 'APARCAMENTO DO INSTITUTO (DIANTE DA PORTA PRINCIPAL)'
+        }
+    },
+    {
+        lat: 43.0160882,
+        lng: -7.2475113,
+        title: 'UM16',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '16:00', to: '18:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '27180 CADAVO (BALEIRA)',
+            street: 'AO CARON DO CONCELLO (CADAVO)'
+        }
+    },
+    {
+        lat: 43.029663,
+        lng: -7.3255256,
+        title: 'UM16',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '19:00', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '27191 CASTROVERDE',
+            street: 'AO CARÓN DO CONCELLO'
+        }
+    },
+    {
+        lat: 42.1388411,
+        lng: -8.157462,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '10:30', to: '12:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32374 PADRENDA',
+            street: 'CRESPOS: DIANTE DO CONCELLO'
+        }
+    },
+    {
+        lat: 42.1383512,
+        lng: -8.1593294,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
+                hours: [
+                    { from: '12:30', to: '14:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32374 PADRENDA',
+            street: 'NOTARIA: CAMPO DA FESTA'
+        }
+    },
+    {
+        lat: 42.2066102,
+        lng: -8.1704196,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Mércores 18/01/2017',
                 hours: [
                     { from: '16:30', to: '21:00' }
                 ]
             }
         ],
         indications: {
-            place: '27056 ALFOZ',
-            street: 'PRAZA FRONTE Á FARMACIA (A SEARA)'
+            place: '32318 CORTEGADA',
+            street: 'AO CARON DE "BANCO SANTANDER"'
         }
     },
     {
-        lat: 43.6618688,
-        lng: -7.5967465,
-        title: 'UM16',
+        lat: 43.4751272,
+        lng: -8.1645393,
+        title: 'UM13',
         schedules: [
             {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '10:30', to: '14:00' },
-                    { from: '17:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '27036 VIVEIRO',
-            street: 'XARDÍNS NORIEGA VARELA'
-        }
-    },
-    {
-        lat: 42.8091768,
-        lng: -7.1091928,
-        title: 'UM16',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '10:00', to: '12:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '27335 AS NOGAIS',
-            street: 'AO CARÓN DO CONCELLO'
-        }
-    },
-    {
-        lat: 42.7267487,
-        lng: -7.021719,
-        title: 'UM16',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '12:30', to: '14:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '27339 PEDRAFITA',
-            street: 'AO CARÓN DO CONCELLO'
-        }
-    },
-    {
-        lat: 42.5576413,
-        lng: -7.3934301,
-        title: 'UM16',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '16:00', to: '18:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '27384 POBRA DE BROLLON',
-            street: 'FRONTE AO CUARTEL DA GUARDIA CIVIL'
-        }
-    },
-    {
-        lat: 42.4664678,
-        lng: -7.287701,
-        title: 'UM16',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
-                hours: [
-                    { from: '18:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '27408 SAN CLODIO',
-            street: 'DIANTE DO CONCELLO'
-        }
-    },
-    {
-        lat: 43.2973515,
-        lng: -7.6806183,
-        title: 'UM16',
-        schedules: [
-            {
-                day: 'Xoves, 12/1/2017',
-                hours: [
-                    { from: '10:00', to: '14:00' },
-                    { from: '16:00', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '27149 VILALBA',
-            street: 'PARTE DE ABAIXO DA ALAMEDA'
-        }
-    },
-    {
-        lat: 43.0093032,
-        lng: -7.5568118,
-        title: 'UM16',
-        schedules: [
-            {
-                day: 'Venres, 13/1/2017',
-                hours: [
-                    { from: '15:30', to: '21:00' }
-                ]
-            },
-            {
-                day: 'Sábado, 14/1/2017',
-                hours: [
-                    { from: '10:00', to: '15:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '27204 PRAZA MAIOR (LUGO)',
-            street: 'LATERAL DA PRAZA MAIOR (Fronte ao Círculo das Artes)'
-        }
-    },
-    {
-        lat: 42.4115457,
-        lng: -7.8395035,
-        title: 'UM15',
-        schedules: [
-            {
-                day: 'Luns, 9/1/2017',
-                hours: [
-                    { from: '16:00', to: '18:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '32071 COLES',
-            street: 'VILARCHAO: AO CARÓN DO CENTRO DE SAÚDE'
-        }
-    },
-    {
-        lat: 42.4425325,
-        lng: -7.7933797,
-        title: 'UM15',
-        schedules: [
-            {
-                day: 'Luns, 9/1/2017',
-                hours: [
-                    { from: '18:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '32056 A PEROXA',
-            street: 'XUNTO AO ANTIGO LOCAL DA CRUZ VERMELLA'
-        }
-    },
-    {
-        lat: 42.1120899,
-        lng: -7.7572964,
-        title: 'UM15',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '10:00', to: '12:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '32461 SANDIÁS',
-            street: 'DIANTE DO CONCELLO'
-        }
-    },
-    {
-        lat: 42.0876145,
-        lng: -7.6027233,
-        title: 'UM15',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '12:30', to: '14:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '32465 SARREAUS',
-            street: 'DIANTE DO ANTIGO CONCELLO'
-        }
-    },
-    {
-        lat: 42.2499699,
-        lng: -7.0260248,
-        title: 'UM15',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '17:00', to: '19:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '32237 A VEIGA',
-            street: 'PRAZA DO CONCELLO'
-        }
-    },
-    {
-        lat: 42.3071949,
-        lng: -7.0992786,
-        title: 'UM15',
-        schedules: [
-            {
-                day: 'Martes, 10/1/2017',
-                hours: [
-                    { from: '19:30', to: '21:00' }
-                ]
-            }
-        ],
-        indications: {
-            place: '32264 O BOLO',
-            street: 'DIANTE DO CONCELLO'
-        }
-    },
-    {
-        lat: 42.3408541,
-        lng: -7.8646398,
-        title: 'UM15',
-        schedules: [
-            {
-                day: 'Mércores, 11/1/2017',
+                day: 'Xoves 19/01/2017',
                 hours: [
                     { from: '09:30', to: '14:30' },
                     { from: '15:30', to: '21:00' }
@@ -1218,17 +876,120 @@ var puntos_mobiles = [
             }
         ],
         indications: {
-            place: '32084 RÚA DO PASEO (OURENSE)',
-            street: 'RÚA DO PASEO N 37'
+            place: '15168 FENE',
+            street: 'DIANTE DO CONCELLO'
         }
     },
     {
-        lat: 42.4315274,
-        lng: -8.0774948,
-        title: 'UM15',
+        lat: 43.212425,
+        lng: -8.7039534,
+        title: 'UM18',
         schedules: [
             {
-                day: 'Xoves, 12/1/2017',
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15543 I.E.S. MONTE NEME (CARBALLO)',
+            street: 'DIANTE DO INSTITUTO'
+        }
+    },
+    {
+        lat: 43.3180877,
+        lng: -8.6060822,
+        title: 'UM18',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '16:00', to: '18:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15562 CAION (LARACHA)',
+            street: 'NA PRAZA'
+        }
+    },
+    {
+        lat: 43.2555505,
+        lng: -8.5548662,
+        title: 'UM18',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '19:00', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15561 PAIOSACO (LARACHA)',
+            street: 'CAMPO DA FEIRA'
+        }
+    },
+    {
+        lat: 43.3474592,
+        lng: -8.3975016,
+        title: 'UM10',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15317 ZONA MONELOS / CASTRILLON (A CORUÑA)',
+            street: 'PRAZA PABLO IGLESIAS'
+        }
+    },
+    {
+        lat: 42.9136648,
+        lng: -8.0134994,
+        title: 'UM19',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:00' },
+                    { from: '16:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15663 MELIDE',
+            street: 'CANTÓN DE SAN ROQUE'
+        }
+    },
+    {
+        lat: 42.5539254,
+        lng: -9.005207,
+        title: 'UM14',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15877 I.E.S. LELIADOURA (FRIONS -RIBEIRA)',
+            street: 'DIANTE DO INSTITUTO'
+        }
+    },
+    {
+        lat: 42.496782,
+        lng: -8.8653552,
+        title: 'UM12',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
                 hours: [
                     { from: '10:00', to: '14:00' },
                     { from: '16:00', to: '21:00' }
@@ -1236,17 +997,320 @@ var puntos_mobiles = [
             }
         ],
         indications: {
-            place: '32027 O CARBALLIÑO',
-            street: 'PRAZA DO EMIGRANTE (Pista Roxa)'
+            place: '36134 O GROVE',
+            street: 'PRAZA DO CORGO (AO CARON DA CHURRERIA)'
         }
     },
     {
-        lat: 42.152104,
-        lng: -7.9581485,
+        lat: 42.1732835,
+        lng: -8.4966833,
+        title: 'UM17',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36618 IES PEDRA DA AUGA (PONTEAREAS)',
+            street: 'DIANTE DO INSTITUTO'
+        }
+    },
+    {
+        lat: 42.2321695,
+        lng: -8.7184435,
+        title: 'UM17',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36506 RUA VENEZUELA (VIGO)',
+            street: 'DIANTE DE ABANCA (R/VENEZUELA nº44)'
+        }
+    },
+    {
+        lat: 42.1735262,
+        lng: -8.5033207,
+        title: 'UM11',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '16:00', to: '21:00' }
+                ]
+            },
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '16:00', to: '21:00' }
+                ]
+            },
+            {
+                day: 'Sábado 21/01/2017',
+                hours: [
+                    { from: '10:00', to: '15:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36617 PONTEAREAS',
+            street: 'DIANTE DO CONCELLO'
+        }
+    },
+    {
+        lat: 42.9646286,
+        lng: -7.5328262,
+        title: 'UM16',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '09:30', to: '14:30' }
+                ]
+            }
+        ],
+        indications: {
+            place: '27206 NOVA FRIGSA (LUGO)',
+            street: 'FRONTE ÁS OFICIÑAS'
+        }
+    },
+    {
+        lat: 42.5210151,
+        lng: -7.5143298,
+        title: 'UM16',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '16:30', to: '21:00' }
+                ]
+            },
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '16:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '27366 MONFORTE',
+            street: 'RÚA CARDENAL'
+        }
+    },
+    {
+        lat: 42.1698608,
+        lng: -7.8893591,
         title: 'UM15',
         schedules: [
             {
-                day: 'Venres, 13/1/2017',
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '10:00', to: '12:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32345 A BOLA',
+            street: 'PODENTES: DIANTE DO CENTRO DE SAÚDE'
+        }
+    },
+    {
+        lat: 42.096051,
+        lng: -7.9514104,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '12:30', to: '14:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32387 VEREA',
+            street: 'PRAZA DE CARBALLO'
+        }
+    },
+    {
+        lat: 42.3391922,
+        lng: -7.8719295,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Xoves 19/01/2017',
+                hours: [
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32092 Bº O COUTO (OURENSE)',
+            street: 'RUA VILA REAL, Nº 6 (AO CARON DO COLEXIO SANTO ANXO)'
+        }
+    },
+    {
+        lat: 43.5005932,
+        lng: -8.1576331,
+        title: 'UM13',
+        schedules: [
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15228 NEDA',
+            street: 'DIANTE DA CASA DA CULTURA'
+        }
+    },
+    {
+        lat: 42.9547749,
+        lng: -9.187204,
+        title: 'UM18',
+        schedules: [
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '10:30', to: '14:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15705 I.E.S. FERNANDO BLANCO (CEE)',
+            street: 'APARCAMIENTO DO INSTITUTO'
+        }
+    },
+    {
+        lat: 43.3185398,
+        lng: -8.3550904,
+        title: 'UM18',
+        schedules: [
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '16:00', to: '21:00' }
+                ]
+            },
+            {
+                day: 'Sábado 21/01/2017',
+                hours: [
+                    { from: '10:00', to: '15:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15421 EL TEMPLE (CAMBRE)',
+            street: 'RUA "CUESTA DE LA TAPIA" Nº 36'
+        }
+    },
+    {
+        lat: 43.3698653,
+        lng: -8.3951413,
+        title: 'UM10',
+        schedules: [
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '15:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15388 LA MARINA (A CORUÑA)',
+            street: 'PUERTA REAL (rúa Santiago esquina María Barbeito)'
+        }
+    },
+    {
+        lat: 42.6525144,
+        lng: -8.8183848,
+        title: 'UM19',
+        schedules: [
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:00' },
+                    { from: '16:00', to: '21:00' }
+                ]
+            },
+            {
+                day: 'Sábado 21/01/2017',
+                hours: [
+                    { from: '10:00', to: '15:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15867 RIANXO',
+            street: 'PRAZA CASTELAO'
+        }
+    },
+    {
+        lat: 42.8672434,
+        lng: -8.3037124,
+        title: 'UM14',
+        schedules: [
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '16:00', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15654 TOURO',
+            street: 'DIANTE DO CONCELLO'
+        }
+    },
+    {
+        lat: 42.5832887,
+        lng: -8.7714474,
+        title: 'UM12',
+        schedules: [
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36163 IES FERMIN BOUZA BREI (VILAGARCIA)',
+            street: 'DIANTE DO INSTITUTO'
+        }
+    },
+    {
+        lat: 42.5886858,
+        lng: -8.7916091,
+        title: 'UM12',
+        schedules: [
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '16:00', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '36166 VILAXOAN (VILAGARCIA)',
+            street: 'PEIRAO'
+        }
+    },
+    {
+        lat: 42.1092727,
+        lng: -8.7642058,
+        title: 'UM17',
+        schedules: [
+            {
+                day: 'Venres 20/01/2017',
                 hours: [
                     { from: '10:00', to: '14:00' },
                     { from: '16:00', to: '21:00' }
@@ -1254,8 +1318,60 @@ var puntos_mobiles = [
             }
         ],
         indications: {
-            place: '32360 CELANOVA',
-            street: 'PRAZA MAIOR'
+            place: '36350 GONDOMAR',
+            street: 'ESTACION DE AUTOBUSES'
+        }
+    },
+    {
+        lat: 42.0634959,
+        lng: -7.7247554,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Venres 20/01/2017',
+                hours: [
+                    { from: '10:00', to: '14:00' },
+                    { from: '16:30', to: '21:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32483 XINZO DE LIMIA',
+            street: 'DIANTE DO CONCELLO'
+        }
+    },
+    {
+        lat: 43.4897524,
+        lng: -8.2226755,
+        title: 'UM13',
+        schedules: [
+            {
+                day: 'Sábado 21/01/2017',
+                hours: [
+                    { from: '10:00', to: '15:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '15195 Bº INFERNIÑO (FERROL)',
+            street: 'PRAZA DO INFERNIÑO (Rúa Viveiro)'
+        }
+    },
+    {
+        lat: 42.2708587,
+        lng: -7.6507411,
+        title: 'UM15',
+        schedules: [
+            {
+                day: 'Sábado 21/01/2017',
+                hours: [
+                    { from: '10:00', to: '15:00' }
+                ]
+            }
+        ],
+        indications: {
+            place: '32402 MACEDA',
+            street: 'RÚA JOAO DE NOVOA (Xardíns de ROSALÍA de CASTRO)'
         }
     }
 ];
